@@ -14,7 +14,7 @@
    
 
 .container{
-    margin: 5%;
+    margin: 10%;
 
 }
 
@@ -24,13 +24,84 @@
     display: inline-block;
     vertical-align: top;
     position: relative;
-    
-
 }
+.nr1 {
+    width: 10%;
+    border: 3px solid #799faf;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 5px;
+    left: 0;
+}
+.nr2 {
+    width: 10%;
+    border: 3px solid #4b6aa3;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 5px;
+    left: 0;
+}
+.nr3 {
+    width: 10%;
+    border: 3px solid #d35c0c;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 5px;
+    left: 0;
+}
+.nr4 {
+    width: 10%;
+    border: 3px solid #8e8e8e;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 5px;
+    left: 0;
+}
+
+.fonas1{
+    background-color: #799faf;
+    
+}
+.fonas2{
+    background-color: #4b6aa3;
+    
+}
+.fonas3{
+    background-color: #d35c0c;
+    
+}
+.fonas4 {
+    background-color: #8e8e8e;
+    
+}
+
 .img {
     height: 180px;
     width: 180px;
+    padding: 7%;
+    filter: invert(100%);
     
+
     
 }
 .h1 {
@@ -38,7 +109,7 @@
     color: orangered;
     font-size: 20px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
 
 
@@ -47,6 +118,6 @@
     text-align: center;
     line-height: 17px;
     position: absolute;
-    top:250px;
+    top:300px;
 
 }
